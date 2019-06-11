@@ -1,0 +1,33 @@
+.tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+
+.myClass1 {
+  padding: 10px 20px;
+  border: 1px solid green;
+  margin-bottom: 50px;
+}
+
+.myClass2 {padding: 50px;border: 1px solid red;display: inline-block;position: absolute;right: 0px;}
+
+.myClass3 {padding: 50px;border: 1px solid blue;display: inline-block;position: absolute;left: 0px; bottom: 0px;}
